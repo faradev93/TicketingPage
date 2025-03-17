@@ -4,8 +4,4 @@ import "./index.css";
 import App from "./App.jsx";
 
 const tick = document.getElementById("TicketRoot");
-createRoot(tick).render(
-  <StrictMode>
-    <App />
-  </StrictMode>
-);
+createRoot(tick).render(<App />);
